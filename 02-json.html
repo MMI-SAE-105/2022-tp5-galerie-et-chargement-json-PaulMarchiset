@@ -10,7 +10,7 @@
 <body>
 <h1>JSON</h1>
 <ul x-data="{
-    données: [
+    data: [
         {
             nom: 'Adrien',
             projet: 'just A Wayback',
@@ -28,10 +28,10 @@
         }
     ],
 }">
-<template x-for="objet.données">
+<template x-for="obj of data">
     <li>
         <span x-text="obj.nom">nom</span> : 
-        <a x-text="obj.url" x-text="obj.projet">projet</a>
+        <a x-bind:href="obj.url" x-text="obj.projet">projet</a>
     </li>
 </template> 
 </ul>
