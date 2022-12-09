@@ -1,17 +1,17 @@
 [
     {
-      "nom": "Jean",
-      "projet": "Alpine.js",
-      "url": "https://alpinejs.dev/"
+      "nom": "Adrien",
+      "projet": "just A Wayback",
+      "url": "https://just-a-wayback.adrienleveque.fr"
     },
     {
       "nom": "Maxime",
-      "projet": "Tailwind CSS",
-      "url": "https://tailwindcss.com/"
+      "projet": "Capsul",
+      "url": "https://capsul.bessarion.fr"
     },
     {
-      "nom": "Adam",
-      "projet": "Laravel",
-      "url": "https://laravel.com/"
+      "nom": "Thomas",
+      "projet": "Last Time",
+      "url": "https://last-time.thomaspoupon.fr"
     }
-  ]
+]
